@@ -62,8 +62,7 @@ namespace UserMaintenance
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var del = listBox1.SelectedValue;
-            users.Remove(del);
+            users.RemoveAt(listBox1.SelectedIndex);
         }
     }
 }
